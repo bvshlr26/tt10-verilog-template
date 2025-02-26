@@ -30,14 +30,7 @@ module tb ();
   // Replace tt_um_example with your module name:
   tt_um_adder user_project (
 
-   // Define test cases: (ui_in, uio_in, expected output)
-    test_cases = [
-        (0, 0, 0),
-        (10, 15, 25),
-        (20, 30, 50),
-        (255, 1, 0),  # Overflow case (8-bit wrap-around)
-        (128, 128, 0) # Overflow case
-    ]
+
 
       // Include power ports for the Gate Level test:
 `ifdef GL_TEST
